@@ -1,0 +1,7 @@
+vpcid = "192.168.0.0/16"
+pub_sub_cidr = "192.168.3.0/24"
+pub_sub_az = "us-west-2a"
+priv_sub_cidr = "192.168.4.0/24"
+priv_sub_az = "us-west-2b"
+rt_destination_cidr = "0.0.0.0/0"
+region = "us-west-2"
