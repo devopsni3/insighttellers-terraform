@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "us-east-1"
-  access_key = "AKIA6NOHM6G6O25H54UI"
-  secret_key = "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"
+  access_key = "AKIA6NOHM6G6HNOGOX75"
+  secret_key = "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"
 }
 
 resource "aws_vpc" "pesca360_vpc" {
@@ -105,8 +105,6 @@ resource "aws_instance" "web_instance" {
   sudo usermod -a -G docker ec2-user
   sudo chkconfig docker on
   sudo yum install -y git
-  sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
-  sudo chmod +x /usr/local/bin/docker-compose
 
   EOF
 
