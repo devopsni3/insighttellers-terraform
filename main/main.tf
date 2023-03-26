@@ -1,7 +1,7 @@
 provider "aws" {
   region  = "us-east-1"
-  access_key = "AKIA4LGAJGH6N42BV4WT"
-  secret_key = "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"
+  access_key = "AKIA6NOHM6G6O25H54UI"
+  secret_key = "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"
 }
 
 resource "aws_vpc" "pesca360_vpc" {
